@@ -3,143 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description"
-          content="Hui Wei (Anna) - Marketing student at Rutgers Business School">
-
-    <title>Hui Wei (Anna) | Marketing Student</title>
+    <title>Hui Wei (Anna) | Marketing</title>
 
     <style>
-
-        /* =========================
-           RESET & GENERAL
-        ========================== */
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
         body {
-            font-family: Arial, Helvetica, sans-serif;
-            background: #f7f8fc;
-            color: #1f2937;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f5f7fa;
+            color: #222;
+        }
+
+        .card {
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 40px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #1f4e79;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            color: #1f4e79;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        p, li {
             line-height: 1.6;
         }
 
+        .skills span {
+            display: inline-block;
+            background: #e8f1fb;
+            color: #1f4e79;
+            padding: 8px 12px;
+            margin: 5px;
+            border-radius: 20px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
         a {
-            text-decoration: none;
-            color: inherit;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 1000px;
-            margin: auto;
-        }
-
-
-        /* =========================
-           NAVIGATION
-        ========================== */
-
-        nav {
-            background: white;
-            border-bottom: 1px solid #e5e7eb;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-
-        .nav-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 18px 0;
-        }
-
-        .logo {
-            font-size: 1.15rem;
+            color: #1f4e79;
             font-weight: bold;
-            color: #1d4ed8;
         }
 
-        .nav-links {
-            display: flex;
-            gap: 25px;
-        }
-
-        .nav-links a {
-            color: #4b5563;
-            font-size: 0.95rem;
-        }
-
-        .nav-links a:hover {
-            color: #1d4ed8;
-        }
-
-
-        /* =========================
-           HERO
-        ========================== */
-
-        .hero {
-            background: white;
-            padding: 100px 0;
-        }
-
-        .hero-content {
-            max-width: 800px;
-        }
-
-        .eyebrow {
-            color: #2563eb;
-            font-size: 0.85rem;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            margin-bottom: 15px;
-        }
-
-        .hero h1 {
-            font-size: 3.5rem;
-            line-height: 1.1;
-            color: #111827;
-            margin-bottom: 15px;
-        }
-
-        .hero h2 {
-            font-size: 1.25rem;
-            font-weight: normal;
-            color: #4b5563;
-            margin-bottom: 25px;
-        }
-
-        .statement {
-            font-size: 1.25rem;
-            color: #374151;
-            max-width: 720px;
-        }
-
-        .buttons {
-            display: flex;
-            gap: 12px;
+        .contact {
             margin-top: 30px;
-            flex-wrap: wrap;
         }
+    </style>
+</head>
 
-        .button {
-            padding: 12px 20px;
-            border-radius: 8px;
-            font-weight: bold;
-            transition: 0.2s;
-        }
+<body>
 
-        .primary {
-            background: #
-```
+<div class="card">
+
+    <h1>Hui Wei (Anna)</h1>
+    <p><strong>Marketing Student | Rutgers Business School</strong></p>
+
+    <h2>Personal Statement</h2>
+    <p>
+        I am a marketing student who enjoys combining creativity with
+        analytical thinking to understand customers and solve business problems.
+    </p>
+
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>Microsoft Excel</span>
+        <span>Active Listening</span>
+        <span>English – Fluent</span>
+        <span>Mandarin – Conventional Proficiency</span>
+    </div>
+
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Paulina Ltd. – Sales & Marketing Support</h3>
+        <p>
+            Supported sales presentations, processed documentation for 50+
+            orders, and coordinated promotional materials for 10+ clients.
+            Reduced lead time by 25%.
+        </p>
+        <a href="#">View Code / Project →</a>
+    </div>
+
+    <div class="project">
+        <h3>Somerset Food Bank Consulting Project</h3>
+        <p>
+            Worked with a team to identify a customer problem, develop a
+            solution, and present recommendations to address the issue.
+        </p>
+        <a href="#">View Project →</a>
+    </div>
+
+    <h2>Contact</h2>
+    <p class="contact">
+        Email:
+        <a href="mailto:hw647@scarletmail.rutgers.edu">
+            hw647@scarletmail.rutgers.edu
+        </a>
+    </p>
+
+</div>
+
+</body>
+</html>
